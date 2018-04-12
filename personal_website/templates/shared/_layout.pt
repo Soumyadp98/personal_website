@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us" metal:define-macro="layout">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Josh Smith Website">
+    <meta name="author" content="Josh Smith">
+    <link rel="shortcut icon" type="image/png" href="../static/pyramid-16x16.png"/>
+
+    <title>anotherjoshsmith</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css?cacheID=${view.build_cache_id('../static/bower_components/bootstrap/dist/css/bootstrap.min.css')}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <script defer src="../static/bower_components/font-awesome/svg-with-js/js/fontawesome-all.min.js?cacheID=${view.build_cache_id('../static/bower_components/font-awesome/svg-with-js/js/fontawesome-all.min.js')}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+
+    <!-- Custom styles for this scaffold -->
+    <link href="../static/css/business-casual.css?cacheID=${view.build_cache_id('../static/css/business-casual.css')}" rel="stylesheet">
+    <link href="../static/css/site.css?cacheID=${view.build_cache_id('../static/css/site.css')}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../static/bower_components/html5shiv/dist/html5shiv.min.js?cacheID=${view.build_cache_id('../static/bower_components/html5shiv/dist/html5shiv.min.js')}"></script>
+      <script src="../static/bower_components/respond/dest/respond.min.js?cacheID=${view.build_cache_id('../static/bower_components/respond/dest/respond.min.js')}"></script>
+    <![endif]-->
+
+      <div metal:define-slot="additional_css"></div>
+  </head>
+
+  <body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="/">Josh Smith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/home/about">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/publications">Publications</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="/blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="content">
+        <div metal:define-slot="content"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2 mt-2">
+              <li class="list-inline-item">
+                <a class="nav-link intro-text text-primary" href="/">Home</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a class="nav-link intro-text text-primary" href="/home/about">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a class="nav-link intro-text text-primary" href="/publications">Publications</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a class="nav-link intro-text text-primary" href="/blog">Blog</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Josh Smith 2018. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="https://github.com/anotherjoshsmith">
+                  <i class="fab fa-github fa-2x fa-fw text-primary"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="https://www.linkedin.com/in/josh-smith-12518a112/?midToken=AQFUX1v2Qh7JfA&trk=eml-email_m2m_invite_reminder_02-header-38-profile&trkEmail=eml-email_m2m_invite_reminder_02-header-38-profile-null-7t59gt~jfwo5f4g~av-null-neptune%2Fprofile~vanity%2Eview&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_reminder_02%3Bqyp13NIoRNKFM3LLUD%2FVEg%3D%3D">
+                  <i class="fab fa-linkedin fa-2x fa-fw text-primary"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../static/bower_components/jquery/dist/jquery.min.js?cacheID=${view.build_cache_id('../static/bower_components/jquery/dist/jquery.min.js')}"></script>
+    <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js?cacheID=${view.build_cache_id('../static/bower_components/bootstrap/dist/js/bootstrap.min.js')}"></script>
+
+    <div metal:define-slot="additional_js"></div>
+
+  </body>
+</html>

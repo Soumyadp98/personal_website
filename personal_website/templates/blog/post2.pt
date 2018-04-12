@@ -1,0 +1,58 @@
+<div metal:use-macro="view.layout">
+    <div metal:fill-slot="content">
+
+        <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Title -->
+          <h1 class="mt-4">PLUMED 2 citation network</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by
+            <a href="/home/about">Josh Smith</a>
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on April 12, 2018 at 12:00 PM</p>
+
+          <hr>
+
+          <!-- Preview Image -->
+          <img class="img-fluid rounded col-lg-12 mb-5" src="http://placehold.it/900x300" alt="">
+
+          <hr>
+
+          <div class="intro-text bg-faded p-5 rounded">
+            <!-- Post Content -->
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">(another)</span>
+              <span class="section-heading-lower">Josh Smith</span>
+            </h2>
+
+
+          <hr>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="/">blah!</a>
+            </div>
+          </div>
+
+          <hr>
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    </div>
+</div>

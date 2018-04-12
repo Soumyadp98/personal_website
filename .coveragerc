@@ -1,0 +1,3 @@
+[run]
+source = personal_website
+omit = personal_website/test*

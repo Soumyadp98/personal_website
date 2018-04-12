@@ -1,0 +1,82 @@
+<div metal:use-macro="view.layout">
+    <div metal:fill-slot="content">
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mt-3 mb-lg-0 rounded" src="../static/img/dumb_pic.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">(another)</span>
+              <span class="section-heading-lower">Josh Smith</span>
+            </h2>
+            <p class="mb-3">
+                Chemical engineering graduate student studying biomolecular interactions with statistical
+                mechanics and advanced data science tools.
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="/home/about">More about me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+            <!-- Icons Grid -->
+    <section class="features-icons text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://github.com/anotherjoshsmith"><div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex" style="font-size:5em">
+                <i class="fab fa-github m-auto features-icons-text"></i>
+              </div>
+              <h3 class="text-secondary">Github</h3>
+            </div></a>
+          </div>
+          <div class="col-md-4">
+            <a href="/publications"><div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex" style="font-size:5em">
+                <i class="fas fa-flask m-auto features-icons-text"></i>
+              </div>
+              <h3 class="text-secondary">Research</h3>
+            </div></a>
+          </div>
+          <div class="col-md-4">
+            <a href="/blog"><div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex" style="font-size:5em">
+                <i class="far fa-chart-bar m-auto features-icons-text"></i>
+              </div>
+              <h3 class="text-secondary">Blog</h3>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Our Promise</span>
+                <span class="section-heading-lower">To You</span>
+              </h2>
+              <p class="mb-0">
+                  When you walk into our shop to start your day, we are dedicated to providing you with
+                  friendly service, a welcoming atmosphere, and above all else, excellent products made
+                  with the highest quality ingredients. If you are not satisfied, please let us know and
+                  we will do whatever we can to make things right!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+</div>
