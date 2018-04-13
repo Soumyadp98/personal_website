@@ -9,7 +9,7 @@ build/
 dist/
 .tox/
 nosetests.xml
-env*/
+.env/
 tmp/
 Data.fs*
 *.sublime-project
@@ -19,3 +19,4 @@ Data.fs*
 .DS_Store
 coverage
 test
+deploy
