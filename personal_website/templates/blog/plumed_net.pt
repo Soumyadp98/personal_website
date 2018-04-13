@@ -18,12 +18,12 @@
 
         <!-- Page Content -->
     <div class="container">
-
       <div class="row">
+        <div class="col-sm-2"></div>
+
 
         <!-- Post Content Column -->
-        <div class="col-lg-12">
-
+        <div class="col-sm-10">
           <div class="bg-faded p-5 rounded">
               <!-- Title -->
           <h1 class="mt-4 text-secondary">PLUMED citation network</h1>
@@ -80,7 +80,7 @@
 
           <hr>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="/blog">back to blog homepa!</a>
+              <a class="btn btn-primary btn-xl" href="/blog">back to blog homepage!</a>
             </div>
           </div>
 

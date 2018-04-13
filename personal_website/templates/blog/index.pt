@@ -5,17 +5,15 @@
 
         <!-- Blog Entries Column -->
 
-        <section class="page-section">
           <div class="container">
             <div class="intro">
-              <div class="text-center bg-faded-dark p-1 rounded">
-                <h1 class="my-4 text-primary">My Blog
-                    <small>data science etc.</small>
+              <div class="text-center bg-faded p-1 rounded">
+                <h1 class="my-4 text-secondary">My Blog
+                    <small>science and pretty pictures.</small>
                 </h1>
               </div>
             </div>
           </div>
-        </section>
            <!--? Template for posts -->
            <!--?<section class="page-section cta">-->
               <!--?<div class="container">-->
@@ -31,13 +29,11 @@
               <!--?</div>-->
             <!--?</section>-->
 
-           <section class="page-section cta">
+           <section class="page-section cta mt-2">
               <div class="container">
                 <div class="row">
-
-
                        <!-- Blog Post -->
-                      <div class="card mb-4">
+                      <div class="card mb-4 ml-1 col-lg-5">
                         <img class="card-img-top" src="../../static/img/plumed_net.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">PLUMED Citation Network</h2>
@@ -50,10 +46,8 @@
                         </div>
                       </div>
 
-
-
                        <!-- Blog Post -->
-                      <div class="card mb-4">
+                      <div class="card mb-4 ml-1 col-lg-5">
                         <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">Post 2</h2>
@@ -66,9 +60,8 @@
                         </div>
                       </div>
 
-
                        <!-- Blog Post -->
-                      <div class="card mb-4">
+                      <div class="card mb-4 ml-1 col-lg-5">
                         <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">Post 3</h2>

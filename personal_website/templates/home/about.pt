@@ -1,11 +1,20 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="content">
 
-        <div class="content">
-            <br>
-            <h1><span class="font-semi-bold">About page</span>
-                <span class="smaller">woohoo!</span></h1>
-        </div>
-
+        <section class="page-section">
+              <div class="intro-text col-lg-4 bg-faded-dark p-5 mx-4 rounded">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">(another)</span>
+                  <span class="section-heading-lower">Josh Smith</span>
+                </h2>
+                <p class="mb-3">
+                    Chemical engineering graduate student studying biomolecular interactions with statistical
+                    mechanics and advanced data science tools.
+                </p>
+                <div class="intro-button mx-auto">
+                  <a class="btn btn-primary btn-xl" href="/home/about">More about me!</a>
+                </div>
+              </div>
+        </section>
     </div>
 </div>
