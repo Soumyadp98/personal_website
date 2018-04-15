@@ -37,7 +37,8 @@
                         <img class="card-img-top" src="../../static/img/plumed_net.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">PLUMED Citation Network</h2>
-                          <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                          <p class="intro-text">A simpler API and software for automating setup and analysis could the expedite adoption of
+                            enhanced sampling techniques by other groups in the molecular modeling community.</p>
                           <a href="/blog/plumed_net" class="btn btn-primary">Read More &rarr;</a>
                         </div>
                         <div class="card-footer text-muted">
@@ -46,33 +47,33 @@
                         </div>
                       </div>
 
-                       <!-- Blog Post -->
-                      <div class="card mb-4 ml-1 col-lg-5">
-                        <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-                        <div class="card-body">
-                          <h2 class="card-title">Post 2</h2>
-                          <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                          <a href="/blog/post2" class="btn btn-primary">Read More &rarr;</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                          Posted on April 10, 2018 by
-                          <a class="text-primary" href="/home/about">Josh Smith</a>
-                        </div>
-                      </div>
+                       <!--? Blog Post -->
+                      <!--?<div class="card mb-4 ml-1 col-lg-5">-->
+                        <!--?<img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">-->
+                        <!--?<div class="card-body">-->
+                          <!--?<h2 class="card-title">Post 2</h2>-->
+                          <!--?<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>-->
+                          <!--?<a href="/blog/post2" class="btn btn-primary">Read More &rarr;</a>-->
+                        <!--?</div>-->
+                        <!--?<div class="card-footer text-muted">-->
+                          <!--?Posted on April 10, 2018 by-->
+                          <!--?<a class="text-primary" href="/home/about">Josh Smith</a>-->
+                        <!--?</div>-->
+                      <!--?</div>-->
 
-                       <!-- Blog Post -->
-                      <div class="card mb-4 ml-1 col-lg-5">
-                        <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-                        <div class="card-body">
-                          <h2 class="card-title">Post 3</h2>
-                          <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                          <a href="/blog/post3" class="btn btn-primary">Read More &rarr;</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                          Posted on April 10, 2018 by
-                          <a class="text-primary" href="/home/about">Josh Smith</a>
-                        </div>
-                      </div>
+                       <!--? Blog Post -->
+                      <!--?<div class="card mb-4 ml-1 col-lg-5">-->
+                        <!--?<img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">-->
+                        <!--?<div class="card-body">-->
+                          <!--?<h2 class="card-title">Post 3</h2>-->
+                          <!--?<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>-->
+                          <!--?<a href="/blog/post3" class="btn btn-primary">Read More &rarr;</a>-->
+                        <!--?</div>-->
+                        <!--?<div class="card-footer text-muted">-->
+                          <!--?Posted on April 10, 2018 by-->
+                          <!--?<a class="text-primary" href="/home/about">Josh Smith</a>-->
+                        <!--?</div>-->
+                      <!--?</div>-->
 
 
                 </div>

@@ -2,8 +2,7 @@
     <div metal:fill-slot="content">
 
         <div class="content">
-            <h1><span class="font-semi-bold">Publications landing page</span>
-                <span class="smaller">woohoo!</span></h1>
+            <h1><span class="font-semi-bold">Sorry, I have not added my publications yet!</span></h1>
         </div>
 
     </div>
