@@ -1,9 +1,91 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="content">
 
-        <div class="content">
-            <h1><span class="font-semi-bold">Sorry, I have not added my publications yet!</span></h1>
-        </div>
+        <!-- Page Content -->
+
+        <!-- Blog Entries Column -->
+
+          <div class="container">
+            <div class="intro">
+              <div class="text-center bg-faded p-1 rounded">
+                <h1 class="my-4 text-secondary">Publications
+                </h1>
+              </div>
+            </div>
+          </div>
+           <!--? Template for posts -->
+           <!--?<section class="page-section cta">-->
+              <!--?<div class="container">-->
+                <!--?<div class="row">-->
+                  <!--?<div class="col-xl-9 mx-auto">-->
+                    <!--?<div class="cta-inner text-center rounded">-->
+                        <!--?-->
+                        <!--? Blog Post -->
+                        <!--?-->
+                    <!--?</div>-->
+                  <!--?</div>-->
+                <!--?</div>-->
+              <!--?</div>-->
+            <!--?</section>-->
+
+           <section class="page-section cta mt-2">
+              <div class="container">
+                <div class="row">
+                      <!-- Publication -->
+                      <div class="card mb-4 ml-1 mr-2 col-lg-5">
+                        <img class="card-img-top" src="../../static/img/nature_comm.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h2 class="card-title">
+                              A browser-based tool for visualization and analysis of diffusion MRI data
+                          </h2>
+                          <a href="https://www.nature.com/articles/s41467-018-03297-7" class="btn btn-primary">To paper &rarr;</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          by J. Yeatman, A. Richie-Halford,
+                          <a class="text-primary" href="/home/about">Josh Smith</a>
+                              , A. Keshavan, A. Rokem
+                        </div>
+                      </div>
+
+                      <!-- Publication -->
+                      <div class="card mb-4 ml-2 mr-2 col-lg-5">
+                        <img class="card-img-top" src="../../static/img/Langmuir.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h2 class="card-title">
+                              Redefining the Protein–Protein Interface: <small>Coarse Graining and Combinatorics for an
+                              Improved Understanding of Amino Acid Contributions to the Protein–Protein Binding Affinity</small>
+                          </h2>
+                          <a href="https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.7b02438" class="btn btn-primary">To paper &rarr;</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          by
+                          <a class="text-primary" href="/home/about">Josh Smith</a>
+                              , S. Jiang, J. Pfaendtner
+                        </div>
+                      </div>
+
+                      <!-- Publication -->
+                      <div class="card mb-4 ml-2 mr-2 col-lg-5">
+                        <img class="card-img-top" src="../../static/img/biointerphases.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h2 class="card-title">
+                              Determining dominant driving forces affecting controlled protein
+                              release from polymeric nanoparticles
+                          </h2>
+                          <a href="https://avs.scitation.org/doi/10.1116/1.4983154" class="btn btn-primary">To paper &rarr;</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          by
+                          <a class="text-primary" href="/home/about">Josh Smith</a>
+                              , K. Sprenger, R. Liao, A. Joseph, E. Nance, J. Pfaendtner
+                        </div>
+                      </div>
+
+
+                </div>
+              </div>
+            </section>
+
 
     </div>
 </div>
