@@ -42,15 +42,9 @@
           <hr>
 
             <!-- Post Content -->
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-lower">Parinello at the center of the Enhanced Sampling Universe</span>
+            <h2 class="section-heading">
+              <span class="section-heading-lower">Parrinello at the center of the Enhanced Sampling Universe</span>
             </h2>
-            <p class="lead">Using Python for data munging and D3 for visualization, I created a graph of the PLUMED
-            social network based on Web of Science citations. Michele Parinello, and researchers associated with his
-            group account for many of the PLUMED citations. <span style="font-weight:900">A simpler API and software for automating
-            setup and analysis could expedite the adoption of enhanced sampling techniques by other groups in the molecular
-            modeling community.</span></p>
-
           </div>
 
           <hr>
@@ -60,24 +54,27 @@
           <hr>
 
           <div class="bg-faded p-5 rounded">
+
             <!-- Post Content -->
-            <!-- potentially include header or lead -->
-            <!--?<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste-->
-                <!--?ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>-->
-
-            <!--?<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde-->
-                <!--?eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>-->
-
-            <!--?<blockquote class="blockquote">-->
-              <!--?<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>-->
-              <!--?<footer class="blockquote-footer">Someone famous in-->
-                <!--?<cite title="Source Title">Source Title</cite>-->
-              <!--?</footer>-->
-            <!--?</blockquote>-->
-
-            <!--?<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>-->
-
-            <!--?<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>-->
+            <p class="lead">Using Python for data munging and D3 for visualization, I created a graph of the PLUMED
+            social network based on Web of Science citations. Each node in the graph represents one researcher who
+            has cited <a class="text-primary" href="https://www.sciencedirect.com/science/article/pii/S0010465513003196">
+            PLUMED 2</a> at least once. The size of each node corresponds to the total number of times that researcher
+            has cited PLUMED 2, and edges denote coauthorship. The largest node corresponds to Michele Parrinello, who has
+            cited PLUMED 2 a total of 26 times. Michele Parrinello (one of my academic grandfathers!) is a leader in the
+            molecular simulation community, especially in the field of enhanced sampling methods. Along with Alessandro
+            Laio, Parrinello proposed the metadynamics enhanced sampling technique in 2002. This method has been advanced
+            several times since it was introduced, primarily by researchers mentored by Parrinello. Moreover, the PLUMED
+                developers have worked under Parrinello. So this result came as no surprise! </p>
+               <p> Most of the remote nodes (those not connected to the Parrinello-centric mass in the center of the
+                   enhanced sampling universe), represent researchers who have cited PLUMED 2 only once or twice. I would
+                   like to see more remote clusters with larger nodes, but I believe the lack of intuitive setup and analysis
+                   tools is slowing the PLUMED workflow for groups that are new to enhanced sampling.
+                   <span style="font-weight:900">
+                       A standardized analysis package and software for automating setup and analysis could
+                       expedite the adoption of enhanced sampling techniques by other groups in the molecular modeling community.
+                   </span> Someone really oughta do something about that!
+               </p>
 
           <hr>
             <div class="intro-button mx-auto">
