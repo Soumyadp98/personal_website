@@ -32,7 +32,7 @@
               <div class="container">
                 <div class="row">
                       <!-- Publication -->
-                      <div class="card mb-4 ml-1 mr-2 col-lg-5">
+                      <div class="card mb-4 mr-4 col-lg-5 p-0">
                         <img class="card-img-top" src="../../static/img/nature_comm.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">
@@ -48,7 +48,7 @@
                       </div>
 
                       <!-- Publication -->
-                      <div class="card mb-4 ml-2 mr-2 col-lg-5">
+                      <div class="card mb-4 mr-4 col-lg-5 p-0">
                         <img class="card-img-top" src="../../static/img/Langmuir.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">
@@ -65,7 +65,7 @@
                       </div>
 
                       <!-- Publication -->
-                      <div class="card mb-4 ml-2 mr-2 col-lg-5">
+                      <div class="card mb-4 mr-4 col-lg-5 p-0">
                         <img class="card-img-top" src="../../static/img/biointerphases.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">

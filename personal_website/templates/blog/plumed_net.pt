@@ -46,9 +46,10 @@
               <span class="section-heading-lower">Parinello at the center of the Enhanced Sampling Universe</span>
             </h2>
             <p class="lead">Using Python for data munging and D3 for visualization, I created a graph of the PLUMED
-            social network based on Web of Science citations. Michele Parinello, and researchers associated with his group account for many of the
-            PLUMED citations. <span style="font-weight:900">A simpler API and software for automating setup and analysis could the expedite adoption of
-            enhanced sampling techniques by other groups in the molecular modeling community.</span></p>
+            social network based on Web of Science citations. Michele Parinello, and researchers associated with his
+            group account for many of the PLUMED citations. <span style="font-weight:900">A simpler API and software for automating
+            setup and analysis could expedite the adoption of enhanced sampling techniques by other groups in the molecular
+            modeling community.</span></p>
 
           </div>
 

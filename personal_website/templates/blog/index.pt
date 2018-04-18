@@ -33,12 +33,12 @@
               <div class="container">
                 <div class="row">
                        <!-- Blog Post -->
-                      <div class="card mb-4 ml-1 col-lg-5">
+                      <div class="card mb-4 mr-4 col-lg-5 p-0">
                         <img class="card-img-top" src="../../static/img/plumed_net.png" alt="Card image cap">
                         <div class="card-body">
                           <h2 class="card-title">PLUMED Citation Network</h2>
-                          <p class="intro-text">A simpler API and software for automating setup and analysis could the expedite adoption of
-                            enhanced sampling techniques by other groups in the molecular modeling community.</p>
+                          <p class="intro-text">A simpler API and software for automating setup and analysis could expedite
+                              the adoption of enhanced sampling techniques by other groups in the molecular modeling community.</p>
                           <a href="/blog/plumed_net" class="btn btn-primary">Read More &rarr;</a>
                         </div>
                         <div class="card-footer text-muted">
