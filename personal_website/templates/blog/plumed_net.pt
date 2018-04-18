@@ -66,7 +66,8 @@
             Laio, Parrinello proposed the metadynamics enhanced sampling technique in 2002. This method has been advanced
             several times since it was introduced, primarily by researchers mentored by Parrinello. Moreover, the PLUMED
                 developers have worked under Parrinello. So this result came as no surprise! </p>
-               <p> Most of the remote nodes (those not connected to the Parrinello-centric mass in the center of the
+
+             <p class="lead"> Most of the remote nodes (those not connected to the Parrinello-centric mass in the center of the
                    enhanced sampling universe), represent researchers who have cited PLUMED 2 only once or twice. I would
                    like to see more remote clusters with larger nodes, but I believe the lack of intuitive setup and analysis
                    tools is slowing the PLUMED workflow for groups that are new to enhanced sampling.
@@ -74,7 +75,7 @@
                        A standardized analysis package and software for automating setup and analysis could
                        expedite the adoption of enhanced sampling techniques by other groups in the molecular modeling community.
                    </span> Someone really oughta do something about that!
-               </p>
+             </p>
 
           <hr>
             <div class="intro-button mx-auto">
