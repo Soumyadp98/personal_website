@@ -1,20 +1,50 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="content">
 
-        <section class="page-section">
-              <div class="intro-text col-lg-4 bg-faded-dark p-5 mx-4 rounded">
-                <h2 class="section-heading mb-4">
-                  <span class="section-heading-upper">(another)</span>
-                  <span class="section-heading-lower">Josh Smith</span>
-                </h2>
-                <p class="mb-3">
-                    Chemical engineering graduate student studying biomolecular interactions with statistical
-                    mechanics and advanced data science tools.
-                </p>
-                <div class="intro-button mx-auto">
-                  <a class="btn btn-primary btn-xl" href="/home/about">More about me!</a>
+        <div class="container my-4">
+            <div class="intro">
+              <div class="text-center bg-faded p-1 rounded">
+                <h1 class="my-4 text-secondary">About Me
+                </h1>
+              </div>
+            </div>
+          </div>
+
+           <section class="page-section cta mt-2">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-lg-6 mx-auto">
+                      <img class="img-fluid mb-4 rounded" src="../static/img/headshot.jpeg" alt="">
+                  </div>
+
+                  <div class="col-lg-6 mx-auto">
+                    <div class="bg-faded text-center rounded p-4" style="z-index:1;">
+                        <p style="font-family:courier; font-size:24">hello world.</p>
+                      <p class="mb-0 text-left">
+                          My name is <a class="text-primary" href="/">Josh Smith</a>. I am a 4th year grad
+                          student in the Department of Chemical Engineering at the University of Washington, Seattle.
+                          I am using biomolecular simulations and machine learning techniques to better understand the
+                          interactions between proteins and synthetic biomaterials. My research is made possible by the
+                          guidance of my advisers <a class="text-primary" href="http://prg.washington.edu/">Jim Pfaendtner</a> and
+                          <a class="text-primary" href="http://depts.washington.edu/jgroup/members.html">Shaoyi Jiang</a>, and with the help
+                          of my labmates. Please check out my <a class="text-primary" href="/publications">publications
+                          for more information about my work!
+                      </p>
+                      <p class="mb-0 text-left">
+                          I'm also interested in creating open source software to accelerate discovery in the computational
+                          molecular sciences. My software development efforts will be documented on
+                          <a class="text-primary" href="https://github.com/anotherjoshsmith">Github</a>, and
+                          hopefully accompanied by some interesting <a class="text-primary" href="/blog">blog</a>
+                          posts!
+                      </p>
+                    </div>
+                  </div>
+
                 </div>
               </div>
-        </section>
+            </section>
+
+
     </div>
 </div>
