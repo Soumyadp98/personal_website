@@ -72,8 +72,8 @@
                    like to see more remote clusters with larger nodes, but I believe the lack of intuitive setup and analysis
                    tools is slowing the PLUMED workflow for groups that are new to enhanced sampling.
                    <span style="font-weight:900">
-                       A standardized analysis package and software for automating setup and analysis could
-                       expedite the adoption of enhanced sampling techniques by other groups in the molecular modeling community.
+                       An open source package for standardized analysis and interactive setup could expedite the adoption of
+                       enhanced sampling techniques by other groups in the molecular modeling community.
                    </span> Someone really oughta do something about that!
              </p>
 
@@ -95,6 +95,7 @@
 
         <div metal:fill-slot="additional_js">
             <script src="https://d3js.org/d3.v4.min.js"></script>
+            <script src="../static/bower_components/jquery/dist/jquery.min.js?cacheID=${view.build_cache_id('../static/bower_components/jquery/dist/jquery.min.js')}"></script>
             <script src="../../static/js/plumed_net/plumed_net.js"></script>
         </div>
 
